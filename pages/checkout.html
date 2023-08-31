@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Checkout - Witchy Wares</title>
+  <!-- Link to CSS files -->
+  <!-- <link rel="stylesheet" href="/assets/CSS/styles.css"> -->
+</head>
+<body>
+  <!-- Header -->
+  <!-- Include header.html from /partials/ -->
+  <!-- #include virtual="/partials/header.html" -->
+
+  <!-- Billing Information -->
+  <section id="billing-info">
+    <h1>Billing Information</h1>
+    <form>
+      <label for="billing-name">Name:</label>
+      <input type="text" id="billing-name" name="billing-name">
+      <!-- Add more billing fields as needed -->
+    </form>
+  </section>
+
+  <!-- Shipping Information -->
+  <section id="shipping-info">
+    <h2>Shipping Information</h2>
+    <form>
+      <label for="shipping-address">Address:</label>
+      <input type="text" id="shipping-address" name="shipping-address">
+      <!-- Add more shipping fields as needed -->
+    </form>
+  </section>
+
+  <!-- Payment Method -->
+  <section id="payment-method">
+    <h2>Payment Method</h2>
+    <form>
+      <input type="radio" id="credit-card" name="payment" value="credit-card">
+      <label for="credit-card">Credit Card</label>
+      <!-- Add more payment options as needed -->
+    </form>
+  </section>
+
+  <!-- Order Summary -->
+  <section id="order-summary">
+    <h2>Order Summary</h2>
+    <p>Item #1: $10.00</p>
+    <p>Item #2: $20.00</p>
+    <p>Total: $30.00</p>
+  </section>
+
+  <!-- Place Order Button -->
+  <button id="place-order-button">Place Order</button>
+
+  <!-- Footer -->
+  <!-- Include footer.html from /partials/ -->
+  <!-- #include virtual="/partials/footer.html" -->
+</body>
+</html>
